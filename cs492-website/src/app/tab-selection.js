@@ -10,6 +10,7 @@ import styles from './styling.css'
 import MissionStatement from './mission-statement';
 import Typography from '@mui/material/Typography';
 import PropTypes from 'prop-types';
+import Results from './results';
 
 function a11yProps(index) {
     return {
@@ -66,7 +67,7 @@ export default function SelectTabs() {
                     <MissionStatement />
                 </TabPanel>
                 <TabPanel className='tab-panel-class' value={value} index={1}><Survey /></TabPanel>
-                <TabPanel className='tab-panel-class' value={value} index={2}>3Results</TabPanel>
+                <TabPanel className='tab-panel-class' value={value} index={2}><Results /></TabPanel>
                 <TabPanel className='tab-panel-class' value={value} index={3}>4Results</TabPanel>
                 <TabPanel className='tab-panel-class' value={value} index={4}>R5esults</TabPanel>
                 {/* </TabContext> */}

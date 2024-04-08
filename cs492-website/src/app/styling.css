@@ -43,6 +43,16 @@ li {
     padding: 0;
 }
 
+.question-dialogs {
+    display: flex;
+    /* justify-content: center; */
+
+}
+
+.question-dialogs>div {
+    margin-right: 10px;
+}
+
 .tab-panel-class {
     /* position: static;
     z-index: 0; */
@@ -51,6 +61,11 @@ li {
     position: 'sticky';
     top: '120px';
     max-height: 15%;
+}
+
+
+.indented-header {
+    text-indent: 20px;
 }
 
 .nice-list {
