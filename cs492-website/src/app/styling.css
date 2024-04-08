@@ -25,6 +25,9 @@ li {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     padding-top: 20px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
 
 .blue-box {
@@ -38,6 +41,16 @@ li {
     width: 100%;
     margin: 0;
     padding: 0;
+}
+
+.tab-panel-class {
+    /* position: static;
+    z-index: 0; */
+    z-index: 1;
+    overflow: hidden;
+    position: 'sticky';
+    top: '120px';
+    max-height: 15%;
 }
 
 .nice-list {

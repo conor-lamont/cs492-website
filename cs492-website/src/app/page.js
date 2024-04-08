@@ -10,8 +10,6 @@ import styles2 from './styling.css'
 import SelectTabs from "./tab-selection";
 export default function Home() {
   return (
-    <div>
-      <SelectTabs className='full-size'></SelectTabs>
-    </div>
+    <SelectTabs className='full-size'></SelectTabs>
   );
 }

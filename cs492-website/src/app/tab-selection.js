@@ -49,12 +49,12 @@ export default function SelectTabs() {
     };
 
     return (
-        <main className='full-size'>
+        <div className='full-size'>
             <div className='header'>
                 WaterlooWorks - Or Does it?
             </div>
-            <Box>
-                <Tabs value={value} onChange={handleChange}
+            <Box sx={{ top: '80px', position: 'sticky', height: '100%' }}>
+                <Tabs sx={{ position: 'sticky', top: '80px', zIndex: 2, backgroundColor: 'white' }} value={value} onChange={handleChange}
                 >
                     <Tab label="Our mission" {...a11yProps(0)} />
                     <Tab label="The Survey" {...a11yProps(1)} />
@@ -62,15 +62,15 @@ export default function SelectTabs() {
                     <Tab label="Analysis" {...a11yProps(3)} />
                     <Tab label="Item Threev2" {...a11yProps(4)} />
                 </Tabs>
-                <TabPanel value={value} index={0}>
+                <TabPanel className='tab-panel-class' value={value} index={0}>
                     <MissionStatement />
                 </TabPanel>
-                <TabPanel value={value} index={1}><Survey /></TabPanel>
-                <TabPanel value={value} index={2}>3Results</TabPanel>
-                <TabPanel value={value} index={3}>4Results</TabPanel>
-                <TabPanel value={value} index={4}>R5esults</TabPanel>
+                <TabPanel className='tab-panel-class' value={value} index={1}><Survey /></TabPanel>
+                <TabPanel className='tab-panel-class' value={value} index={2}>3Results</TabPanel>
+                <TabPanel className='tab-panel-class' value={value} index={3}>4Results</TabPanel>
+                <TabPanel className='tab-panel-class' value={value} index={4}>R5esults</TabPanel>
                 {/* </TabContext> */}
             </Box >
-        </main >
+        </div >
     );
 }
