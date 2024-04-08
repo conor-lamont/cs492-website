@@ -11,7 +11,7 @@ import MissionStatement from './mission-statement';
 import Typography from '@mui/material/Typography';
 import PropTypes from 'prop-types';
 import Results from './results';
-
+import Analysis from './analysis';
 function a11yProps(index) {
     return {
         id: `vertical-tab-${index}`,
@@ -68,7 +68,7 @@ export default function SelectTabs() {
                 </TabPanel>
                 <TabPanel className='tab-panel-class' value={value} index={1}><Survey /></TabPanel>
                 <TabPanel className='tab-panel-class' value={value} index={2}><Results /></TabPanel>
-                <TabPanel className='tab-panel-class' value={value} index={3}>4Results</TabPanel>
+                <TabPanel className='tab-panel-class' value={value} index={3}><Analysis /></TabPanel>
                 <TabPanel className='tab-panel-class' value={value} index={4}>R5esults</TabPanel>
                 {/* </TabContext> */}
             </Box >
