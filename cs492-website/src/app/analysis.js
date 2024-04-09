@@ -58,20 +58,18 @@ export default function Analysis() {
                     against based on race. These significant percentages present 2 possibilities:
                     <ol>
                         <li>
-                            There are many postings on WaterlooWorks that are discriminatory, by the definition in Ontario human rights code which these people have
-                            noticed
+                            There are many postings on WaterlooWorks that are discriminatory, by the definition in Ontario human rights code,
+                            and the student who took this survey have noticed this.
                         </li>
                         <li>
                             These people have a different definition of discrimination than that which was presented in the Ontario human rights code.
-
                         </li>
                     </ol>
 
                     A mix of these two is also possible. Many would conclude that <b>1</b> indicates systemic problem and <b>2</b> is just
                     people being delusional or at the very least incorrect.
-
                     <b>1</b> is certainly indicative of a systemic problem; this means there are many people being discriminated
-                    against on WaterlooWorks in spite of the legislation that is meant to ban such behaviour. That implies systemic
+                    against on WaterlooWorksm in spite of the legislation that is meant to ban such behaviour. That implies systemic
                     change is needed on Waterloo’s account - they should be more actively monitoring these postings for violations of human rights.
 
                     I would argue that <b>2</b> is also indicative of systemic problems; if such a large percentage of people feel discriminated against,
