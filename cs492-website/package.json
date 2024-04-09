@@ -1,8 +1,8 @@
 {
+  "homepage": "https://conor-lamont.github.io/cs492-website",
   "name": "cs492-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://conor-lamont.github.io/cs492-website/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
