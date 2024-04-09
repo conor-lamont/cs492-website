@@ -61,7 +61,6 @@ export default function SelectTabs() {
                     <Tab label="The Survey" {...a11yProps(1)} />
                     <Tab label="Results"{...a11yProps(2)} />
                     <Tab label="Analysis" {...a11yProps(3)} />
-                    <Tab label="Item Threev2" {...a11yProps(4)} />
                 </Tabs>
                 <TabPanel className='tab-panel-class' value={value} index={0}>
                     <MissionStatement />
