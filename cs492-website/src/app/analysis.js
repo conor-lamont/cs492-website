@@ -40,8 +40,8 @@ export default function Analysis() {
                     against based on race. These significant percentages present 2 possibilities:
                     <ol>
                         <li>
-                            There are many postings on WaterlooWorks that are discriminatory, by the definition in Ontario human rights code which these people have
-                            noticed
+                            There are many postings on WaterlooWorks that are discriminatory, by the definition in Ontario human rights code,
+                            and the student who took this survey have noticed this.
                         </li>
                         <li>
                             These people have a different definition of discrimination than that which was presented in the Ontario human rights code.

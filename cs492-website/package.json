@@ -2,11 +2,13 @@
   "name": "cs492-website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://clamont.github.io/your-repository",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
@@ -19,6 +21,7 @@
   },
   "devDependencies": {
     "eslint": "^8",
-    "eslint-config-next": "14.1.4"
+    "eslint-config-next": "14.1.4",
+    "gh-pages": "^6.1.1"
   }
 }
